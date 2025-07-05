@@ -6,7 +6,7 @@ It allows users to search for English words and view their **definitions**, **ph
 ---
 
 ## 🔍 Live Demo  
-🚀 [View Demo](https://yousef-sabry.github.io/English-Dictionary) *(update this link after deploying)*
+🚀 [View Demo](https://yousef-sabry.github.io/English-Dictionary/) 
 
 ---
 
