@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Dictionary</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>📘 English Dictionary</h1>
+    <p>Type a word & explore its meaning!</p>
+  </header>
+
+  <div class="container">
+    <div class="search-box">
+      
+      <input type="text" id="searchInput" placeholder="Enter a word...">
+      <button onclick="searchWord()">Search</button>
+    </div>
+    <div id="result" class="result-box hidden">
+      <h2 id="word"></h2>
+      <p><strong>Phonetic:</strong> <span id="phonetic"></span></p>
+      <p><strong>Part of Speech:</strong> <span id="partOfSpeech"></span></p>
+      <p><strong>Definition:</strong> <span id="definition"></span></p>
+      <p><strong>Example:</strong> <span id="example"></span></p>
+      <button id="playAudio">🔊 Play Pronunciation</button>
+    </div>
+    <p id="error" class="error-msg hidden"></p>
+  </div>
+
+  <footer class="site-footer">
+    <p>Follow us on</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <p>&copy; 2025 English Dictionary App</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
