@@ -1,4 +1,4 @@
-# 📘 English Dictionary
+# 📘 English Dictionary (GDGC Al-Azhar)
 
 A simple and interactive English Dictionary web application built using **HTML**, **CSS**, and **Vanilla JavaScript**.  
 It allows users to search for English words and view their **definitions**, **phonetics**, **examples**, and **audio pronunciation**, all fetched from a free public API.
